@@ -1,18 +1,24 @@
-
 package Inheritance;
-import java.io;
-class subclass1 {
+
+//creating class A
+interface classA {
 	static void printsubclass1() {
 		System.out.println("This is subclass1");
 	}
 }
 
-class subclass2 {
+//creating class B
+interface classB {
 	static void printsubclass2() {
 		System.out.println("This is subclass2");
 	}
 }
 
-public class MultipleInheritance implements subclass1,subclass2{
-	
+//inheriting both class in a single class
+public class MultipleInheritance implements classA, classB {
+	public static void main(String[] args) {
+		classA.printsubclass1();
+		classB.printsubclass2();
+	}
+
 }

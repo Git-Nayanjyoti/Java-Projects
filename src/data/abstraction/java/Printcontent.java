@@ -8,5 +8,5 @@ public class Printcontent {
 		SBIBank bank = new SBIBank();
 		bank.depositMoney();
 		bank.giveInterest();
-	}
+	} 
 }

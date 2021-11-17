@@ -1,4 +1,5 @@
 package array.java;
+package array.java;
 
 public class ArrayPractice {
 	 static int[] student = {1,2,4,5,};

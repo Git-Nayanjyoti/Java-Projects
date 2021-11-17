@@ -27,7 +27,7 @@ public class HashMaps {
 			HashMap<Integer, String> map = new HashMap<>();
 			map.put(1, "Ajay");
 			map.put(2, "Shayak");
-			map.put(3, "Robin");
+			map.put(3, "Robin"); 
 			System.out.println(map);
 			System.out.println(map.get(2));
 			map.put(4, "Ajay");
@@ -47,8 +47,9 @@ public class HashMaps {
 			for(Entry<Integer, String> a : map.entrySet()) {
 				System.out.println("Key is "+a.getKey() + " Value is " + a.getValue());
 			}
+			System.out.println(.getKey());
 			
-			
+			 
 		}
 
 }

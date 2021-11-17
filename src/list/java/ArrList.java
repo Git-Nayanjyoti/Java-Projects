@@ -24,7 +24,7 @@ public class ArrList {
 		list.add(10);
 		System.out.println(list);
 		list.add(1, 500);
-		System.out.println(list);
+		System.out.println(list); 
 
 		System.out.println("Getting single element " + list.get(2));
 		list.set(2, 501);
